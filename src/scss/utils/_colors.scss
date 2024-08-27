@@ -1,0 +1,29 @@
+:root {
+  --dark-reverie-c-dark: #191813;
+  --dark-reverie-c-faint: #c9c7b8;
+  --dark-reverie-c-beige: #b5b3a4;
+  --dark-reverie-c-tan: #444444;
+  --dark-reverie-c-white: #ffffff;
+  --dark-reverie-c-black: #000000;
+  --dark-reverie-c-groove: #eeede0;
+}
+
+.theme-dark {
+  --dark-reverie-c-dark: #c9c7b8;
+  --dark-reverie-c-faint: #191813;
+  --dark-reverie-c-beige: #444444;
+  --dark-reverie-c-tan: #b5b3a4;
+  --dark-reverie-c-white: #000000;
+  --dark-reverie-c-black: #ffffff;
+  --dark-reverie-c-groove: #11121f;
+}
+
+$c-white: var(--dark-reverie-c-white);
+$c-black: var(--dark-reverie-c-black);
+
+$c-dark: var(--dark-reverie-c-dark);
+$c-faint: var(--dark-reverie-c-faint);
+$c-beige: var(--dark-reverie-c-beige);
+$c-tan: var(--dark-reverie-c-tan);
+
+$c-groove: var(--dark-reverie-c-groove);

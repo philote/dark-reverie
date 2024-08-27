@@ -1,0 +1,21 @@
+{
+  "name": "dark-reverie",
+  "version": "3.0.0",
+  "description": "CSS compiler for the Dark Reverie system",
+  "scripts": {
+    "build": "sass src/scss/dark-reverie.scss css/dark-reverie.css --style=expanded --no-source-map",
+    "watch": "sass src/scss/dark-reverie.scss css/dark-reverie.css --style=expanded --source-map --watch",
+    "pushLDBtoJSON": "node ./tools/pushLDBtoJSON.mjs",
+    "pullJSONtoLDB": "node ./tools/pullJSONtoLDB.mjs"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Asacolips",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "sass": "^1.53.0"
+  }
+}
