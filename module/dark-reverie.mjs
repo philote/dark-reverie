@@ -15,7 +15,7 @@ import * as models from './data/_module.mjs';
 
 // Add key classes to the global scope so they can be more easily used
 // by downstream developers
-globalThis.dark-reverie = {
+globalThis.darkReverie = {
   documents: {
     DarkReverieActor,
     DarkReverieItem,
@@ -39,7 +39,7 @@ Hooks.once('init', function () {
    * @type {String}
    */
   CONFIG.Combat.initiative = {
-    formula: '1d20 + @abilities.dex.mod',
+    formula: '1d20',
     decimals: 2,
   };
 
@@ -55,9 +55,13 @@ Hooks.once('init', function () {
   };
   CONFIG.Item.documentClass = DarkReverieItem;
   CONFIG.Item.dataModels = {
-    gear: models.DarkReverieGear,
-    feature: models.DarkReverieFeature,
-    spell: models.DarkReverieSpell,
+    bond: models.DarkReverieBond,
+    drive: models.DarkReverieDrive,
+    skill: models.DarkReverieSkill,
+    occupation: models.DarkReverieOccupation,
+    background: models.DarkReverieBackground,
+    flaw: models.DarkReverieFlaw,
+    disorder: models.DarkReverieDisorder,
   };
 
   // Active Effects are never copied to the Actor,

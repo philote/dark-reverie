@@ -1,0 +1,70 @@
+character:
+  ruin:
+    min: 0
+    max: 6
+    initial: 4
+  stress:
+    min: 0
+    max: 6
+    initial: 4
+  trauma:
+    min: 0
+    max: 6
+    initial: 4
+  wounds:
+    min: 0
+    max: 6
+    initial: 4
+  equipment:
+    min: 0
+    max: 4
+    initial: 4
+  growth:
+    min: 0
+    max: 4
+    initial: 4
+  flaws: []
+  bonds: []
+  drives: []
+  occupation: {}
+    skills: []
+  background: {}
+    skills: []
+  notes: ""
+  background: ""
+  actions: []
+
+skill:
+  name: ""
+  description: ""
+  type: ""
+
+bond:
+  person_name: ""
+  description: ""
+  rating: 0
+
+drive:
+  name: ""
+  description: ""
+
+occupation:
+  name: ""
+  description: ""
+  skills: []
+
+background:
+  name: ""
+  description: ""
+  skills: []
+  drives: []
+  flaws: []
+
+flaw:
+  name: ""
+  description: ""
+
+disorder:
+  name: ""
+  description: ""
+  type: ""

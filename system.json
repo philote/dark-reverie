@@ -13,10 +13,10 @@
   "documentTypes": {
     "Actor": {
         "character": {
-            "htmlFields": ["biography"]
+            "htmlFields": ["biography", "notes"]
         },
         "npc": {
-            "htmlFields": ["biography"]
+            "htmlFields": ["biography", "notes"]
         }
     },
     "Item": {
