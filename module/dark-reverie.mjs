@@ -55,13 +55,13 @@ Hooks.once('init', function () {
   };
   CONFIG.Item.documentClass = DarkReverieItem;
   CONFIG.Item.dataModels = {
-    bond: models.DarkReverieBond,
-    drive: models.DarkReverieDrive,
     skill: models.DarkReverieSkill,
     occupation: models.DarkReverieOccupation,
     background: models.DarkReverieBackground,
-    flaw: models.DarkReverieFlaw,
-    disorder: models.DarkReverieDisorder,
+    drive: models.DarkReverieDrive,
+    action: models.DarkReverieAction,
+    connection: models.DarkReverieConnection,
+    coping: models.DarkReverieCoping,
   };
 
   // Active Effects are never copied to the Actor,

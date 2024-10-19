@@ -1,9 +1,9 @@
 import DarkReverieItemBase from './base-item.mjs';
 
-export default class DarkReverieSkill extends DarkReverieItemBase {
+export default class DarkReverieCoping extends DarkReverieItemBase {
   static LOCALIZATION_PREFIXES = [
     'DARK_REVERIE.Item.base',
-    'DARK_REVERIE.Item.Skill',
+    'DARK_REVERIE.Item.Coping',
   ];
 
   static defineSchema() {

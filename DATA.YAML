@@ -33,38 +33,3 @@ character:
   notes: ""
   background: ""
   actions: []
-
-skill:
-  name: ""
-  description: ""
-  type: ""
-
-bond:
-  person_name: ""
-  description: ""
-  rating: 0
-
-drive:
-  name: ""
-  description: ""
-
-occupation:
-  name: ""
-  description: ""
-  skills: []
-
-background:
-  name: ""
-  description: ""
-  skills: []
-  drives: []
-  flaws: []
-
-flaw:
-  name: ""
-  description: ""
-
-disorder:
-  name: ""
-  description: ""
-  type: ""

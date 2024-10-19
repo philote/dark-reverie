@@ -20,13 +20,25 @@
         }
     },
     "Item": {
-        "feature": {
+        "skill": {
             "htmlFields": ["description"]
         },
-        "gear": {
+        "occupation": {
             "htmlFields": ["description"]
         },
-        "spell": {
+        "background": {
+            "htmlFields": ["description"]
+        },
+        "drive": {
+            "htmlFields": ["description"]
+        },
+        "action": {
+            "htmlFields": ["description"]
+        },
+        "connection": {
+            "htmlFields": ["description"]
+        },
+        "coping": {
             "htmlFields": ["description"]
         }
     }

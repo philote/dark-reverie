@@ -5,4 +5,10 @@ export default class DarkReverieDrive extends DarkReverieItemBase {
     'DARK_REVERIE.Item.base',
     'DARK_REVERIE.Item.Drive',
   ];
+
+  static defineSchema() {
+    const fields = foundry.data.fields;
+    const schema = super.defineSchema();
+    return schema;
+  }
 }
